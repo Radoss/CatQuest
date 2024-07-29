@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4dd41bef2f34448a813293fe940005, type: 3}
+  m_Name: CollectPotion
+  m_EditorClassIdentifier: 
+  IsActive: 0
+  Id: Porion1
+  Title: Blue Potion
+  Description: Hi, I'm an old wizard. I am out of <br>my magic blue potion. <br>Can
+    you find one for me?
+  TextDuringProgress: I'm waiting for the potion
+  TextAfterCompletion: Thank you for the potion!
+  ExperienceReward: 10
+  GoldReward: 10
+  questGoalList:
+  - {fileID: 11400000, guid: 31fd618efacd855419026be9797b7aaf, type: 2}
